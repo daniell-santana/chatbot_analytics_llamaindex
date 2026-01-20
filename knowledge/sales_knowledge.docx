@@ -1,0 +1,36 @@
+"""
+# 📊 DICIONÁRIO DE MÉTRICAS DE VENDAS
+
+## PRINCIPAIS KPIs:
+1. **Vendas Brutas**: Soma de todos os valores de venda (valor_total)
+2. **Vendas Líquidas**: Vendas brutas menos descontos e cancelamentos
+3. **Ticket Médio**: valor_total / quantidade de vendas
+4. **Custo da Mercadoria Vendida (CMV)**: custo_total
+5. **Margem de Lucro**: (lucro / valor_total) * 100
+6. **Conversão**: Vendas concluídas / total de transações
+7. **Crescimento Mensal**: ((Vendas mês atual / Vendas mês anterior) - 1) * 100
+8. **Taxa de Crescimento entre Períodos (%)**: Mede a variação percentual de um indicador (ex: vendas, faturamento, pedidos) entre dois períodos consecutivos. Resultado positivo indica crescimento; resultado igual a zero indica estabilidade; e resultado negativo indica queda em relação ao período anterior.
+Fórmula Geral: ((Valor do Período Atual / Valor do Período Anterior) − 1) × 100
+
+## SEGMENTAÇÕES DISPONÍVEIS:
+- **Temporal**: Ano, Mês, Trimestre, Dia da Semana, Feriados
+- **Geográfica**: Região, Estado, Cidade
+- **Produto**: Categoria, Produto específico
+- **Comercial**: Vendedor, Cliente, Forma de Pagamento
+- **Financeira**: Margem, Lucro, Custo
+
+## REGRAS DE NEGÓCIO:
+- Vendas canceladas têm status = "Cancelada"
+- Descontos acima de 30% são considerados promoções especiais
+- Temporada alta: Novembro a Dezembro (Natal) e Julho (Férias)
+- Temporada baixa: Fevereiro e Setembro
+- Regiões: Sudeste (SP, RJ, MG, ES), Sul (PR, SC, RS), Centro-Oeste (DF, GO, MT, MS), Nordeste (AL, BA, CE, MA, PB, PE, PI, RN, SE), Norte (AC, AP, AM, PA, RO, RR, TO)
+
+## ANÁLISES COMUNS:
+- Sazonalidade por mês/trimestre
+- Performance por vendedor/região
+- Mix de produtos mais rentável
+- Tendência de crescimento
+- Taxa de crescimento entre períodos
+- Comparativo ano a ano
+"""

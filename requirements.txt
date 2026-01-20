@@ -1,0 +1,79 @@
+# ============================================
+# Versões testadas e compatíveis (Outubro/Novembro 2024)
+# ============================================
+
+# ================= CORE & BACKEND =================
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# =============== DATA PROCESSING ==================
+pandas
+numpy
+python-dateutil
+pytz
+
+# ============== LLM & AI FRAMEWORKS ===============
+# OpenAI
+openai
+
+# LlamaIndex Core (ATENÇÃO: versões mais recentes podem ter breaking changes)
+llama-index
+llama-index-core
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+llama-index-experimental
+
+# LangChain
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain_classic.memory
+langchain_core.messages
+langchain_core.prompts
+
+# Vector Database
+chromadb
+sentence-transformers
+
+# ============== DATA PROCESSING EXTRA =============
+python-docx
+fuzzywuzzy
+python-Levenshtein
+
+# ================ VISUALIZATION ===================
+plotly
+matplotlib
+seaborn
+
+# ================ ENVIRONMENT =====================
+python-dotenv
+
+# ============== UTILITIES & HELPERS ===============
+requests
+httpx
+aiohttp
+tqdm
+colorama
+typing-extensions
+
+# ============= DEPENDENCIAS SECUNDÁRIAS ===========
+# Necessárias para sentence-transformers
+transformers
+torch
+tokenizers
+
+# Necessárias para chromadb
+pypika
+posthog
+overrides
+
+# Necessárias para pandas/plotly
+jinja2
+markupsafe
+tenacity
