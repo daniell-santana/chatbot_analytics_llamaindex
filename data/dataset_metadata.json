@@ -1,0 +1,20 @@
+{
+  "total_records": 10000,
+  "date_range": "2020-01-01 to 2025-12-31",
+  "total_sales": 32811826.97,
+  "categories": [
+    "ELETRÔNICOS",
+    "MODA",
+    "CASA",
+    "ESPORTES",
+    "BELEZA"
+  ],
+  "regions": [
+    "SUL",
+    "NORDESTE",
+    "CENTRO-OESTE",
+    "SUDESTE",
+    "NORTE"
+  ],
+  "generated_at": "2026-01-15 15:28:30"
+}
