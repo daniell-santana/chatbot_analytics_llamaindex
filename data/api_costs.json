@@ -1,0 +1,107 @@
+{
+  "daily_costs": {
+    "2026-01-20": 0.02201
+  },
+  "daily_tokens": {
+    "2026-01-20": {
+      "input": 300,
+      "output": 2126
+    }
+  },
+  "model_usage": {
+    "gpt-4o": {
+      "calls": 6,
+      "total_cost": 0.02201,
+      "total_tokens": {
+        "input": 300,
+        "output": 2126
+      }
+    }
+  },
+  "total_cost": 0.02201,
+  "total_tokens": {
+    "input": 300,
+    "output": 2126
+  },
+  "last_updated": "2026-01-20T12:08:00.444048",
+  "detailed_calls": [
+    {
+      "timestamp": "2026-01-20T12:07:51.093415",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 624,
+      "cost": 0.006365,
+      "metadata": {
+        "question": "Vendas totais por mês em 2023",
+        "question_length": 29,
+        "response_length": 8634,
+        "function": "_processar_analise_normal",
+        "timestamp": "2026-01-20T12:07:51.093415"
+      }
+    },
+    {
+      "timestamp": "2026-01-20T12:07:51.095208",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 300,
+      "cost": 0.003125,
+      "metadata": {
+        "question": "Vendas totais por mês em 2023",
+        "function": "handle_chat",
+        "timestamp": "2026-01-20T12:07:51.095208"
+      }
+    },
+    {
+      "timestamp": "2026-01-20T12:07:56.580915",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 300,
+      "cost": 0.003125,
+      "metadata": {
+        "question": "Ticket médio por região",
+        "question_length": 23,
+        "response_length": 4061,
+        "function": "_processar_analise_normal",
+        "timestamp": "2026-01-20T12:07:56.580915"
+      }
+    },
+    {
+      "timestamp": "2026-01-20T12:07:56.594556",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 300,
+      "cost": 0.003125,
+      "metadata": {
+        "question": "Ticket médio por região",
+        "function": "handle_chat",
+        "timestamp": "2026-01-20T12:07:56.594556"
+      }
+    },
+    {
+      "timestamp": "2026-01-20T12:08:00.419890",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 302,
+      "cost": 0.003145,
+      "metadata": {
+        "question": "Distribuição de vendas por forma de pagamento",
+        "question_length": 45,
+        "response_length": 4089,
+        "function": "_processar_analise_normal",
+        "timestamp": "2026-01-20T12:08:00.419890"
+      }
+    },
+    {
+      "timestamp": "2026-01-20T12:08:00.444048",
+      "model": "gpt-4o",
+      "prompt_tokens": 50,
+      "completion_tokens": 300,
+      "cost": 0.003125,
+      "metadata": {
+        "question": "Distribuição de vendas por forma de pagamento",
+        "function": "handle_chat",
+        "timestamp": "2026-01-20T12:08:00.444048"
+      }
+    }
+  ]
+}
