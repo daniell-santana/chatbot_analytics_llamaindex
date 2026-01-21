@@ -18,8 +18,7 @@
 | Aplicação      | Conhecimento textual         | Business Intelligence, Data Analytics       |
 
 ---
-### Fluxo Operacional Completo
-###  Fluxo do Chatbot (RAG + GPT-3.5)
+###  Fluxo do Chatbot Completo
 ```mermaid
 flowchart TD
     A[👤 Usuário digita pergunta<br>Ex: Gráfico de vendas por mês] --> B{📥 Frontend HTML/JS<br>Captura mensagem}
