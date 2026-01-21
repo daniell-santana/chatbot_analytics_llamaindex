@@ -19,38 +19,38 @@
 
 ---
 ### Fluxo Operacional Completo
-### 🔄 Fluxo do Chatbot (RAG + GPT-3.5)
+###  Fluxo do Chatbot (RAG + GPT-3.5)
 ```mermaid
 flowchart TD
     A[👤 Usuário digita pergunta<br>Ex: Gráfico de vendas por mês] --> B{📥 Frontend HTML/JS<br>Captura mensagem}
     
-    B --> C[📤 Envia para API FastAPI<br>POST /chat]
+    B --> C[ Envia para API FastAPI<br>POST /chat]
     
-    C --> D{🧠 Endpoint /chat<br>app.py}
+    C --> D{ Endpoint /chat<br>app.py}
     
-    D --> E{🔍 Detecção de Tipo}
+    D --> E{ Detecção de Tipo}
     
-    E -- "Palavras: gráfico, chart,<br>visualização" --> F[🎨 Processa como GRÁFICO]
-    E -- "Palavras: tabela, números,<br>dados" --> G[📊 Processa como DADOS]
+    E -- "Palavras: gráfico, chart,<br>visualização" --> F[ Processa como GRÁFICO]
+    E -- "Palavras: tabela, números,<br>dados" --> G[ Processa como DADOS]
     
     subgraph F [Fluxo de Gráfico]
-        F1[📈 Extrai parâmetros<br>x_axis, y_axis, filters]
-        F2[🎯 Chama generate_chart]
-        F3[📊 Plotly gera gráfico]
-        F4[🖼️ Converte para imagem base64]
+        F1[ Extrai parâmetros<br>x_axis, y_axis, filters]
+        F2[ Chama generate_chart]
+        F3[ Plotly gera gráfico]
+        F4[ Converte para imagem base64]
     end
     
     subgraph G [Fluxo de Dados]
-        G1[🤖 SalesDataAnalyst.consultar]
-        G2[🧠 LlamaIndex + GPT-4<br>Gera código pandas]
-        G3[🐼 Executa código]
-        G4[🎨 Formata resultado]
+        G1[ SalesDataAnalyst.consultar]
+        G2[ LlamaIndex + GPT-4<br>Gera código pandas]
+        G3[ Executa código]
+        G4[ Formata resultado]
     end
     
     F --> H[JSON com imagem + HTML]
     G --> H
     
-    H --> I[📦 Resposta para Frontend]
+    H --> I[ Resposta para Frontend]
     
     I --> J{🖥️ Frontend processa}
     
