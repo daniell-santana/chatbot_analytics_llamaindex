@@ -63,12 +63,15 @@ flowchart TD
 #PARA ABRIR O CHATBOT
 
 ##1️⃣ INSTALE AS DEPENDÊNCIAS
+
 pip install -r requirements.txt
 
 ##2️⃣ INICIE O SERVIDOR
+
 uvicorn app:app --reload --port 8000
 
 ##3️⃣ ABRA NO NAVEGADOR
+
 Acesse: http://localhost:8000 ou abra o frontend_chatbot.html
 
 ---
